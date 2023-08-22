@@ -18,9 +18,13 @@ const HomePage = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
+            className="title"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            I'm a passion <br /> {" "}
+            <span>
+              <span className="text-accent">Frontend Developer</span>
+              <span className="text-accent">ReactJS / NextJS</span>
+            </span>
           </motion.h1>
           {/* subtitle */}
 

@@ -61,6 +61,10 @@ const AboutPage = () => {
             {
               icon: <SiNextdotjs />,
               label: "NextJS"
+            },
+            {
+              icon: <FaFigma />,
+              label: "Figma"
             }
           ]
         },
@@ -86,15 +90,6 @@ const AboutPage = () => {
             {
               icon: <SiFramer />,
               label: "Framer Motion"
-            }
-          ]
-        },
-        {
-          title: "Other",
-          icons: [
-            {
-              icon: <FaFigma />,
-              label: "Figma"
             },
             {
               icon: <SiPostman />,
@@ -103,9 +98,8 @@ const AboutPage = () => {
             {
               icon: <SiSwagger />,
               label: "Swagger"
-            },
-          ],
-          stage: ""
+            }
+          ]
         }
       ]
     },
@@ -133,7 +127,7 @@ const AboutPage = () => {
 
   const [index, setIndex] = useState(0);
   return (
-    <div className="relative h-full w-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="relative h-full w-full bg-primary/30 py-24 md:py-16 xl:py-32 text-center xl:text-left">
       <Circle />
 
       <motion.div
@@ -158,7 +152,7 @@ const AboutPage = () => {
             eligendi nemo molestiae.
           </p>
           {/* count */}
-          <div className="hidden xl:flex">
+          <div className="hidden md:flex md:max-w-lg xl:max-w-none mx-auto xl:mx-0 mb-8">
             <div className="flex flex-1 xl:gap-x-6">
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
@@ -207,22 +201,23 @@ const AboutPage = () => {
             {aboutData[index].info.map((item, i) =>
               <div
                 key={item.title + i}
-                className="flex-1 flex flex-col md:flex-row max-w-max items-center text-white/60"
+                className="flex-1 flex flex-col md:flex-row md:gap-x-[1px] max-w-max items-center text-white/60"
               >
                 <div className="font-light mb-2 md:mb-0 ">
                   {item.title}
                 </div>
-                <div className="hidden md:flex">&nbsp; -</div>
+                <div className="hidden md:flex">&nbsp;-&nbsp;</div>
                 <div className="">
-                  &nbsp;{item.stage}
+                  {/* @ts-ignore */}
+                  {item.stage}
                 </div>
 
                 <div className="flex gap-x-4">
                   {item.icons.map((icon, i) =>
-                    <div className="text-2xl text-white">
+                    <div key={i} className="text-2xl text-white">
                       <Tooltip
                         label={icon.label}
-                        className="xl:-top-6 -right-5"
+                        className="xl:-top-7 -right-4"
                       >
                         {icon.icon}
                       </Tooltip>
