@@ -48,7 +48,7 @@ const ServicesPage = () => {
     }
   ];
   return (
-    <div className=" h-full bg-primary/30 py-36 flex items-center">
+    <div className="relative h-full bg-primary/30 py-36 flex items-center">
       <Circle />
 
       <div className="w-11/12 lg:w-3/5 mx-auto">
