@@ -1,12 +1,12 @@
 import dynamic from "next/dynamic";
 
 import Layout from "@/components/Layout";
-const HomePage = dynamic(() => import("@/components/HomePage"));
+const AboutPage = dynamic(() => import("@/components/AboutPage"));
 
 export default function Home() {
   return (
     <>
-      <HomePage />
+      <AboutPage />
     </>
   );
 }
