@@ -25,10 +25,10 @@ const config: Config = {
         xl: '1200px',
       },
       backgroundImage: {
-        explosion: 'url("/images/bg-explosion.png")',
-        circles: 'url("/images/bg-circles.png")',
-        circleStar: 'url("/images/circle-star.svg")',
-        site: 'url("/images/site-bg.svg")',
+        explosion: 'url("https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782851/bg-explosion_dbwtig.png")',
+        circles: 'url("https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782850/circles_t5aajh.png")',
+        circleStar: 'url("https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782849/circle-star_zhmwoh.svg")',
+        site: 'url("https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782853/site-bg_wiyfs9.svg")',
       },
       animation: {
         'spin-slow': 'spin 6s linear infinite',

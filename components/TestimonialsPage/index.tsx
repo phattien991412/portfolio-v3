@@ -24,21 +24,21 @@ export interface ItemSlide {
 const Testimonials = () => {
   const testimonialData: ItemSlide[] = [
     {
-      image: "/images/t-avt-1.png",
+      image: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782853/t-avt-1_trlqco.png",
       name: "Anne Smith",
       position: "Customer",
       message:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!"
     },
     {
-      image: "/images/t-avt-2.png",
+      image: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782853/t-avt-2_uqwdph.png",
       name: "Jane Doe",
       position: "Customer",
       message:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!"
     },
     {
-      image: "/images/t-avt-3.png",
+      image: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782853/t-avt-3_rnefrg.png",
       name: "Jhon Doe",
       position: "Customer",
       message:

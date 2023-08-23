@@ -30,23 +30,23 @@ const WorkPage = () => {
       images: [
         {
           title: "Airbnb",
-          path: "/images/project4.png",
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782854/project4_kyqeh3.png",
           link: "https://airbnb47.vercel.app/"
         },
         {
           title: "NFT Marketplace",
           path: "/images/project3.png",
-          link: "https://nftmarketplace47.vercel.app/"
+          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project3_nocfq6.png"
         },
         {
           title: "Meta Madness",
           path: "/images/project5.png",
-          link: "https://metamadness47.vercel.app/"
+          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project5_bdhzce.png"
         },
         {
           title: "Neflix",
           path: "/images/project1.png",
-          link: "https://themovie47.vercel.app/auth"
+          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782851/project1_ap5vjp.png"
         }
       ]
     },
@@ -55,21 +55,21 @@ const WorkPage = () => {
         {
           title: "Intero",
           path: "/images/project2.png",
-          link: "https://interno-nine.vercel.app/"
+          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782851/project2_m9va0v.png"
         },
         {
           title: "Flexibble",
-          path: "/images/project6.png",
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project6_nsp0yp.png",
           link: "https://flexibble-47.vercel.app/"
         },
         {
           title: "Portfolio v1",
-          path: "/images/project7.png",
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project7_agmfjl.png",
           link: "https://tienphat-portfolio-v1.vercel.app/"
         },
         {
           title: "Social Guide",
-          path: "/images/project8.png",
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project8_z6ifqw.png",
           link: "https://airbnb47.vercel.app/"
         }
       ]

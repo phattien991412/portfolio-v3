@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import Circle from "../AboutPage/Circle";
-import { fadeIn } from "@/variants";
-import Input from "../Input";
 import { BsArrowRight } from "react-icons/bs";
+
+import Input from "../Input";
+import { fadeIn } from "@/variants";
+import Circle from "../AboutPage/Circle";
 
 const ContactPage = () => {
   return (

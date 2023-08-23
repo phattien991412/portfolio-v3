@@ -8,13 +8,13 @@ const Header = () => {
 
       <ul className="flex items-center gap-4">
         <li className="hover:text-accent transition-all duration-300 cursor-pointer">
-          <a href="http://fb.com/phattien991412" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+          <a href="http://fb.com/phattien991412" target="_blank" rel="noopener noreferrer"><span><FaFacebookF /></span></a>
         </li>
         <li className="hover:text-accent transition-all duration-300 cursor-pointer">
-          <a href="https://www.linkedin.com/in/phat-trinh-tien-60a269271/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+          <a href="https://www.linkedin.com/in/phat-trinh-tien-60a269271/" target="_blank" rel="noopener noreferrer"><span><FaLinkedinIn /></span></a>
         </li>
         <li className="hover:text-accent transition-all duration-300 cursor-pointer">
-          <a href="https://github.com/phattien991412" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://github.com/phattien991412" target="_blank" rel="noopener noreferrer"><span><FaGithub /></span></a>
         </li>
       </ul>
     </div>

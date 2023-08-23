@@ -9,7 +9,7 @@ const ProjectBtn = () => {
         className="relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat"
       >
         <Image
-          src="/images/rounded-text.png"
+          src="https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/rounded-text_rngm9l.png"
           width={141}
           height={148}
           alt="project"
