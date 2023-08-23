@@ -22,6 +22,16 @@ export interface ItemSlide {
 const ServicesPage = () => {
   const serviceData: ItemSlide[] = [
     {
+      icon: <RxDesktop />,
+      title: "Development",
+      description: "Stay updated on web development advancements."
+    },
+    {
+      icon: <RxRocket />,
+      title: "SEO",
+      description: "Boots search rankings with optimaztion techniques."
+    },
+    {
       icon: <RxCrop />,
       title: "Branding",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -29,21 +39,6 @@ const ServicesPage = () => {
     {
       icon: <RxPencil2 />,
       title: "Design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      icon: <RxDesktop />,
-      title: "Development",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      icon: <RxReader />,
-      title: "Copywriting",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      icon: <RxRocket />,
-      title: "SEO",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ];

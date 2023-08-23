@@ -140,11 +140,11 @@ const AboutPage = () => {
         <Avatar />
       </motion.div>
 
-      <div className="relative z-10 w-11/12 lg:w-3/5 mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="relative z-10 w-11/12 lg:w-3/5 mx-auto h-full flex flex-col items-center xl:items-start xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
-          <h2>
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+          <h2 className="font-bold">
+            Unleash Creative Web Development{" "}
+            <span className="text-accent">With Functionality.</span>
           </h2>
           <p className="max-w-[700px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet

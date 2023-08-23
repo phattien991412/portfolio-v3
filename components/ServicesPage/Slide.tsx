@@ -1,18 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from "swiper/modules";
 
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-
-import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxRocket,
-  RxArrowTopRight
-} from "react-icons/rx";
+import { RxArrowTopRight } from "react-icons/rx";
 import { ItemSlide } from "./index";
 
 interface Props {
@@ -28,7 +17,7 @@ const Slide = ({ serviceData }: Props) => {
           spaceBetween: 15
         },
         640: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 15
         }
       }}
@@ -50,13 +39,13 @@ const Slide = ({ serviceData }: Props) => {
               <div className="mb-2 text-lg">
                 {item.title}
               </div>
-              <p className="max-w-[35px] leading-normal">
+              <p className=" leading-normal">
                 {item.description}
               </p>
             </div>
 
             <div className="text-3xl">
-              <RxArrowTopRight  className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300"/>
+              <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
             </div>
           </div>
         </SwiperSlide>
