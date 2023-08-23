@@ -24,12 +24,12 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = ({
   return (
     <>
       <SEO />
-      <AnimatePresence mode="wait">
-        <motion.div key={router.route} className="h-screen">
-          <Transition />
+      {/* <AnimatePresence mode="wait"> */}
+        {/* <motion.div key={router.route} className="h-screen"> */}
+          {/* <Transition /> */}
           {getLayout(<Component {...pageProps} />)}
-        </motion.div>
-      </AnimatePresence>
+        {/* </motion.div> */}
+      {/* </AnimatePresence> */}
     </>
   );
 };
