@@ -54,7 +54,7 @@ const ServicesPage = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className=" xl:mt-8"
+              className="xl:mt-8"
             >
               My services <span className="text-accent">.</span>
             </motion.h2>

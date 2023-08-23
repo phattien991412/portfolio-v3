@@ -13,7 +13,7 @@ interface Props {
 }
 
 const Slide = ({ workSlides }: Props) => {
-  console.log({ workSlides });
+
   return (
     <Swiper
       spaceBetween={10}

@@ -7,10 +7,11 @@ const SEO = () => {
       <meta name="title" content="Portfolio" />
       <meta
         name="description"
-        content="Portfolio website "
+        content="What is an NFT? What does NFT stand for? "
       />
-      {/* <link rel="icon" href={"/images/logo.png"} />
-      <link rel="apple-touch-icon" href={"/images/logo.png"} /> */}
+      {/* <link rel="icon" href={"/images/logo.webp"} />
+      <link rel="apple-touch-icon" href={"/images/logo.webp"} /> */}
+
     </Head>
   );
 };

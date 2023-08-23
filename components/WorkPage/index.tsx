@@ -29,22 +29,22 @@ const WorkPage = () => {
     {
       images: [
         {
-          title: "title",
+          title: "Airbnb",
           path: "/images/project4.png",
           link: "https://airbnb47.vercel.app/"
         },
         {
-          title: "title",
+          title: "NFT Marketplace",
           path: "/images/project3.png",
           link: "https://nftmarketplace47.vercel.app/"
         },
         {
-          title: "title",
-          path: "/images/project2.png",
-          link: "https://interno-nine.vercel.app/"
+          title: "Meta Madness",
+          path: "/images/project5.png",
+          link: "https://metamadness47.vercel.app/"
         },
         {
-          title: "title",
+          title: "Neflix",
           path: "/images/project1.png",
           link: "https://themovie47.vercel.app/auth"
         }
@@ -53,23 +53,23 @@ const WorkPage = () => {
     {
       images: [
         {
-          title: "title",
-          path: "/images/project1.png",
-          link: "https://themovie47.vercel.app/auth"
-        },
-        {
-          title: "title",
+          title: "Intero",
           path: "/images/project2.png",
           link: "https://interno-nine.vercel.app/"
         },
         {
-          title: "title",
-          path: "/images/project3.png",
-          link: "https://nftmarketplace47.vercel.app/"
+          title: "Flexibble",
+          path: "/images/project6.png",
+          link: "https://flexibble-47.vercel.app/"
         },
         {
-          title: "title",
-          path: "/images/project4.png",
+          title: "Portfolio v1",
+          path: "/images/project7.png",
+          link: "https://tienphat-portfolio-v1.vercel.app/"
+        },
+        {
+          title: "Social Guide",
+          path: "/images/project8.png",
           link: "https://airbnb47.vercel.app/"
         }
       ]
