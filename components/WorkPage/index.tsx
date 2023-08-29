@@ -35,27 +35,27 @@ const WorkPage = () => {
         },
         {
           title: "NFT Marketplace",
-          path: "/images/project3.png",
-          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project3_nocfq6.png"
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project3_nocfq6.png",
+          link: "https://nftmarketplace47.vercel.app/"
         },
         {
           title: "Meta Madness",
-          path: "/images/project5.png",
-          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project5_bdhzce.png"
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project5_bdhzce.png",
+          link: "https://metamadness47.vercel.app/"
         },
         {
           title: "Neflix",
-          path: "/images/project1.png",
-          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782851/project1_ap5vjp.png"
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782851/project1_ap5vjp.png",
+          link: "https://themovie47.vercel.app/auth"
         }
       ]
     },
     {
       images: [
         {
-          title: "Intero",
-          path: "/images/project2.png",
-          link: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782851/project2_m9va0v.png"
+          title: "Interno",
+          path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782851/project2_m9va0v.png",
+          link: "https://interno-nine.vercel.app/"
         },
         {
           title: "Flexibble",
@@ -70,7 +70,7 @@ const WorkPage = () => {
         {
           title: "Social Guide",
           path: "https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/project8_z6ifqw.png",
-          link: "https://airbnb47.vercel.app/"
+          link: "https://socialguide47.netlify.app/"
         }
       ]
     }

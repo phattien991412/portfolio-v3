@@ -217,7 +217,7 @@ const AboutPage = () => {
                     <div key={i} className="text-2xl text-white">
                       <Tooltip
                         label={icon.label}
-                        className="xl:-top-7 -right-4"
+                        className="xl:-top-6 xl:-right-4"
                       >
                         {icon.icon}
                       </Tooltip>

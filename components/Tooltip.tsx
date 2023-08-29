@@ -15,6 +15,8 @@ const Tooltip = ({ children, label, className }: ToolTipProps) => {
         <p className="font-medium text-black">
           {label}
         </p>
+
+        
       </div>
     </div>
   );
