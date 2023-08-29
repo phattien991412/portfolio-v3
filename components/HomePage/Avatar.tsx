@@ -1,9 +1,9 @@
-import Image from "next/image";
+import BlurredImage from "../BlurredImage";
 
 const Avatar = () => {
   return (
     <div className="hidden xl:flex xl:max-w-none">
-      <Image
+      <BlurredImage
         src="https://res.cloudinary.com/dh9jli5uo/image/upload/v1692782852/hero_dge9pj.png"
         width={737}
         height={678}

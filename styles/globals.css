@@ -85,3 +85,50 @@
     transform: translateY(0%);
   }
 }
+
+.blur-img {
+  position: relative;
+  border-radius: 20px;
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none; */
+}
+
+.blur-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: pulse 2.5s infinite;
+  background-color: #fff;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.blur-img.loaded::before {
+  animation: none;
+  content: none;
+}
+
+.blur-img img {
+  opacity: 0;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  pointer-events: auto;
+}
+
+.blur-img.loaded img {
+  opacity: 1;
+}
