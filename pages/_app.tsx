@@ -14,6 +14,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import SEO from "@/components/SEO";
+import ToasterProvider from "@/components/ToastProvider";
 
 const MyApp: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = ({
   Component,
@@ -24,6 +25,7 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = ({
   return (
     <>
       <SEO />
+      <ToasterProvider />
       <AnimatePresence mode="wait">
         <motion.div key={router.route} className="h-screen">
           <Transition />
