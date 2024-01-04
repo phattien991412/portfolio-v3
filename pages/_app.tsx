@@ -15,6 +15,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import SEO from "@/components/SEO";
 import ToasterProvider from "@/components/ToastProvider";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const MyApp: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = ({
   Component,
@@ -24,6 +25,7 @@ const MyApp: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = ({
   const router = useRouter();
   return (
     <>
+      <GoogleAnalytics measurementId="G-G3RB42WF1Z" />
       <SEO />
       <ToasterProvider />
       <AnimatePresence mode="wait">
